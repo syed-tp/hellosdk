@@ -12,11 +12,11 @@ npm install hellosdk
 
 
 ```js
-import { multiply } from 'hellosdk';
+import { getGreeting } from '@syedt/hellosdk'; 
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await getGreeting('Android');
 ```
 
 
