@@ -21,7 +21,7 @@ class HelloSdkModule(reactContext: ReactApplicationContext) :
   
   @ReactMethod
   fun getGreeting(name: String, promise: Promise) {
-    val greetingMessage = "Hello, $name! I'm SDK."
+    val greetingMessage = "Hello $name! I'm SDK."
     promise.resolve(greetingMessage)
   }
 

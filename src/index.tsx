@@ -22,5 +22,5 @@ export function multiply(a: number, b: number): Promise<number> {
 }
 
 export function getGreeting(name: string): Promise<string> {
-  return Promise.resolve(`${name} Hello, I'm SDK!.`);
+  return HelloSdk.getGreeting(name);
 }
