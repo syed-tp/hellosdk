@@ -20,3 +20,7 @@ const HelloSdk = NativeModules.HelloSdk
 export function multiply(a: number, b: number): Promise<number> {
   return HelloSdk.multiply(a, b);
 }
+
+export function getGreeting(name: string): Promise<string> {
+  return Promise.resolve(`${name} Hello, I'm SDK!.`);
+}

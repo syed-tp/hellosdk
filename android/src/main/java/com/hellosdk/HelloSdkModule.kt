@@ -18,6 +18,12 @@ class HelloSdkModule(reactContext: ReactApplicationContext) :
   fun multiply(a: Double, b: Double, promise: Promise) {
     promise.resolve(a * b)
   }
+  
+  @ReactMethod
+  fun getGreeting(name: String, promise: Promise) {
+    val greetingMessage = "Hello, $name! I'm SDK."
+    promise.resolve(greetingMessage)
+  }
 
   companion object {
     const val NAME = "HelloSdk"
