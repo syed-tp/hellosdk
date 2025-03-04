@@ -5,7 +5,7 @@ a simple react-native sdk
 ## Installation
 
 ```sh
-npm install hellosdk
+npm install @syedt/hellosdk
 ```
 
 ## Usage
