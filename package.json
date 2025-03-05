@@ -1,6 +1,6 @@
 {
   "name": "@syedt/hellosdk",
-  "version": "0.1.13",
+  "version": "0.1.12",
   "description": "a simple react-native sdk",
   "source": "./src\\index.tsx",
   "main": "./lib\\commonjs\\index.js",
@@ -454,7 +454,7 @@
     "has-symbols": "^1.1.0",
     "has-tostringtag": "^1.0.2",
     "hasown": "^2.0.2",
-    "@syedt/hellosdk": "^0.1.13",
+    "@syedt/hellosdk": "^0.1.14",
     "hermes-estree": "^0.25.1",
     "hermes-parser": "^0.25.1",
     "hosted-git-info": "^7.0.2",
