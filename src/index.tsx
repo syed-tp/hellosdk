@@ -17,10 +17,12 @@ const HelloSdk = NativeModules.HelloSdk
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return HelloSdk.multiply(a, b);
-}
+// export function multiply(a: number, b: number): Promise<number> {
+//   return HelloSdk.multiply(a, b);
+// }
 
-export function getGreeting(name: string): Promise<string> {
-  return HelloSdk.getGreeting(name);
-}
+// export function getGreeting(name: string): Promise<string> {
+//   return HelloSdk.getGreeting(name);
+// }
+
+export default HelloSdk;
