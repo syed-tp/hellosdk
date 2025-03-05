@@ -6,9 +6,6 @@ buildscript {
   repositories {
     google()
     mavenCentral()
-    maven {
-      url "https://github.com/testpress/maven/raw/main/repo"
-    }
   }
 
   dependencies {
@@ -77,12 +74,14 @@ android {
   }
 }
 
-repositories {
-  mavenCentral()
-  google()
-  maven {
-      url "https://github.com/testpress/maven/raw/main/repo"
-  }
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://github.com/testpress/maven/raw/main/repo"
+        }
+    }
 }
 
 def kotlin_version = getExtOrDefault("kotlinVersion")
