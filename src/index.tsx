@@ -6,8 +6,8 @@ const LINKING_ERROR =
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
 
-const HelloSdk = NativeModules.HelloSdk
-  ? NativeModules.HelloSdk
+const FragmentModule = NativeModules.FragmentModule
+  ? NativeModules.FragmentModule
   : new Proxy(
       {},
       {
@@ -25,4 +25,4 @@ const HelloSdk = NativeModules.HelloSdk
 //   return HelloSdk.getGreeting(name);
 // }
 
-export default HelloSdk;
+export default FragmentModule;
