@@ -1,6 +1,6 @@
 {
   "name": "@syedt/hellosdk",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "a simple react-native sdk",
   "source": "./src\\index.tsx",
   "main": "./lib\\commonjs\\index.js",
